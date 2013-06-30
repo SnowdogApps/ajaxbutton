@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+  <modules>
+    <Snowdog_AjaxButton>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Snowdog_AjaxButton>
+  </modules>
+</config>

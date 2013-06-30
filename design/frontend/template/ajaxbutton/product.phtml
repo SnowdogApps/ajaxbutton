@@ -1,0 +1,16 @@
+<?php $product = Mage::registry('current_product'); ?>
+
+<script type="text/javascript">
+//<![CDATA[
+  var ajaxButton = new Snowdog.AjaxButton("<?php echo $this->getUrl('snowdogajaxbutton') ?>");
+//]]>
+</script>
+
+<div id="ajax-updater">
+  <button type="button" class="button" onclick="ajaxButton.send(<?php echo $product->getFinalPrice(); ?>)">
+    <span><span><?php echo $this->__('Ajax Button') ?></span></span>
+  </button>
+  <span class="please-wait" id="please-wait" style="display:none;">
+    <img src="<?php echo $this->getSkinUrl('images/opc-ajax-loader.gif') ?>" alt="<?php echo $this->__('Loading...') ?>" title="<?php echo $this->__('Loading...') ?>" class="v-middle" /> <?php echo $this->__('Loading...') ?>
+  </span>
+</div>

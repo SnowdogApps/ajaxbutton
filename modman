@@ -1,0 +1,5 @@
+Snowdog_AjaxButton.xml                    app/etc/modules/Snowdog_AjaxButton.xml
+code/                                     app/code/local/Snowdog/AjaxButton/
+design/frontend/layout/ajaxbutton.xml     app/design/frontend/default/default/layout/snowdog/ajaxbutton.xml
+design/frontend/template/ajaxbutton/      app/design/frontend/default/default/template/snowdog/ajaxbutton/
+skin/frontend/js/ajaxbutton.js            skin/frontend/default/default/js/snowdog/ajaxbutton.js

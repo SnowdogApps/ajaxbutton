@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+  <modules>
+    <Snowdog_AjaxButton>
+      <version>0.0.0.1</version>
+    </Snowdog_AjaxButton>
+  </modules>
+  <global>
+    <models>
+      <snowdogajaxbutton>
+        <class>Snowdog_AjaxButton_Model</class>
+      </snowdogajaxbutton>
+    </models>
+    <helpers>
+      <snowdogajaxbutton>
+        <class>Snowdog_AjaxButton_Helper</class>
+      </snowdogajaxbutton>
+    </helpers>
+    <blocks>
+      <snowdogajaxbutton>
+        <class>Snowdog_AjaxButton_Block</class>
+      </snowdogajaxbutton>
+    </blocks>
+  </global>
+  <frontend>
+    <routers>
+      <snowdogajaxbutton>
+        <use>standard</use>
+        <args>
+          <module>Snowdog_AjaxButton</module>
+          <frontName>snowdogajaxbutton</frontName>
+        </args>
+      </snowdogajaxbutton>
+    </routers>
+    <layout>
+      <updates>
+        <snowdogajaxbutton>
+          <file>snowdog/ajaxbutton.xml</file>
+        </snowdogajaxbutton>
+      </updates>
+    </layout>
+  </frontend>
+</config>
