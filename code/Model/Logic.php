@@ -7,7 +7,7 @@
 
 class Snowdog_AjaxButton_Model_Logic {
 
-  public function doSomething($price) {
+  public function priceThreshold($price) {
     switch ($price) {
       case $price < 50:
         $result = 'cheap'; break;

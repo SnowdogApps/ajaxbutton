@@ -1,5 +1,5 @@
 if (typeof Snowdog == 'undefined') {
-	var Snowdog = Class.create();
+  var Snowdog = Class.create();
 }
 
 Snowdog.AjaxButton = Class.create();
